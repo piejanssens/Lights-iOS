@@ -1,7 +1,7 @@
 Lights
 ======
 
-iOS and OSX companion apps source files for funkcontrol-over-net
+iOS companion for Lights-Arduino
 
-##What is funkcontrol-over-net?
-Arduino Project to Control 433 Mhz Devices over Arduino and Website
+You can dynamically group switches togeter and relabel them.
+An all on/all off switch is available as well.
