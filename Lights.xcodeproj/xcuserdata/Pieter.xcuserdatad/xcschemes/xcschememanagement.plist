@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Lights-OSX.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 		<key>Lights.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +23,16 @@
 			<true/>
 		</dict>
 		<key>F50EFCD5185C80FE00618DA1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F560AB7D185E858000683EB9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F560AB9C185E858000683EB9</key>
 		<dict>
 			<key>primary</key>
 			<true/>

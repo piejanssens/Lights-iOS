@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		847AD8F038F94BD4AA22DE95 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EA32395CE0492E99446012 /* libPods.a */; };
 		F50EFCB6185C80FE00618DA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50EFCB5185C80FE00618DA1 /* Foundation.framework */; };
 		F50EFCB8185C80FE00618DA1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50EFCB7185C80FE00618DA1 /* CoreGraphics.framework */; };
 		F50EFCBA185C80FE00618DA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50EFCB9185C80FE00618DA1 /* UIKit.framework */; };
@@ -14,27 +15,15 @@
 		F50EFCC2185C80FE00618DA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F50EFCC1185C80FE00618DA1 /* main.m */; };
 		F50EFCC6185C80FE00618DA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F50EFCC5185C80FE00618DA1 /* AppDelegate.m */; };
 		F50EFCC9185C80FE00618DA1 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F50EFCC7185C80FE00618DA1 /* Main_iPhone.storyboard */; };
-		F50EFCCC185C80FE00618DA1 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F50EFCCA185C80FE00618DA1 /* Main_iPad.storyboard */; };
 		F50EFCCF185C80FE00618DA1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F50EFCCE185C80FE00618DA1 /* ViewController.m */; };
 		F50EFCD1185C80FE00618DA1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F50EFCD0185C80FE00618DA1 /* Images.xcassets */; };
-		F50EFCD8185C80FE00618DA1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50EFCD7185C80FE00618DA1 /* XCTest.framework */; };
-		F50EFCD9185C80FE00618DA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50EFCB5185C80FE00618DA1 /* Foundation.framework */; };
-		F50EFCDA185C80FE00618DA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50EFCB9185C80FE00618DA1 /* UIKit.framework */; };
-		F50EFCE2185C80FE00618DA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F50EFCE0185C80FE00618DA1 /* InfoPlist.strings */; };
-		F50EFCE4185C80FE00618DA1 /* LightsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F50EFCE3185C80FE00618DA1 /* LightsTests.m */; };
+		F560AB76185DEE8B00683EB9 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F560AB75185DEE8B00683EB9 /* TableViewController.m */; };
+		F560AB79185DFF2A00683EB9 /* SwitchDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F560AB78185DFF2A00683EB9 /* SwitchDetailViewController.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F50EFCDB185C80FE00618DA1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F50EFCAA185C80FE00618DA1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F50EFCB1185C80FE00618DA1;
-			remoteInfo = Lights;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		28EA32395CE0492E99446012 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3A0F209389E4850A1FF101D /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		F50EFCB2185C80FE00618DA1 /* Lights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lights.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F50EFCB5185C80FE00618DA1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F50EFCB7185C80FE00618DA1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,15 +35,33 @@
 		F50EFCC4185C80FE00618DA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F50EFCC5185C80FE00618DA1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F50EFCC8185C80FE00618DA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		F50EFCCB185C80FE00618DA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		F50EFCCD185C80FE00618DA1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F50EFCCE185C80FE00618DA1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F50EFCD0185C80FE00618DA1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F50EFCD6185C80FE00618DA1 /* LightsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F50EFCD7185C80FE00618DA1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F50EFCDF185C80FE00618DA1 /* LightsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LightsTests-Info.plist"; sourceTree = "<group>"; };
 		F50EFCE1185C80FE00618DA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F50EFCE3185C80FE00618DA1 /* LightsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightsTests.m; sourceTree = "<group>"; };
+		F560AB74185DEE8B00683EB9 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		F560AB75185DEE8B00683EB9 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		F560AB77185DFF2A00683EB9 /* SwitchDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchDetailViewController.h; sourceTree = "<group>"; };
+		F560AB78185DFF2A00683EB9 /* SwitchDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchDetailViewController.m; sourceTree = "<group>"; };
+		F560AB7F185E858000683EB9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		F560AB82185E858000683EB9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F560AB83185E858000683EB9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F560AB84185E858000683EB9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F560AB87185E858000683EB9 /* Lights-OSX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lights-OSX-Info.plist"; sourceTree = "<group>"; };
+		F560AB89185E858000683EB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F560AB8B185E858000683EB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F560AB8D185E858000683EB9 /* Lights-OSX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lights-OSX-Prefix.pch"; sourceTree = "<group>"; };
+		F560AB8F185E858000683EB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F560AB91185E858000683EB9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F560AB92185E858000683EB9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F560AB95185E858000683EB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F560AB97185E858000683EB9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F560ABA4185E858000683EB9 /* Lights-OSXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lights-OSXTests-Info.plist"; sourceTree = "<group>"; };
+		F560ABA6185E858000683EB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F560ABA8185E858000683EB9 /* Lights_OSXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lights_OSXTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,16 +72,7 @@
 				F50EFCB8185C80FE00618DA1 /* CoreGraphics.framework in Frameworks */,
 				F50EFCBA185C80FE00618DA1 /* UIKit.framework in Frameworks */,
 				F50EFCB6185C80FE00618DA1 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F50EFCD3185C80FE00618DA1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F50EFCD8185C80FE00618DA1 /* XCTest.framework in Frameworks */,
-				F50EFCDA185C80FE00618DA1 /* UIKit.framework in Frameworks */,
-				F50EFCD9185C80FE00618DA1 /* Foundation.framework in Frameworks */,
+				847AD8F038F94BD4AA22DE95 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,8 +84,11 @@
 			children = (
 				F50EFCBB185C80FE00618DA1 /* Lights */,
 				F50EFCDD185C80FE00618DA1 /* LightsTests */,
+				F560AB85185E858000683EB9 /* Lights-OSX */,
+				F560ABA2185E858000683EB9 /* Lights-OSXTests */,
 				F50EFCB4185C80FE00618DA1 /* Frameworks */,
 				F50EFCB3185C80FE00618DA1 /* Products */,
+				A3A0F209389E4850A1FF101D /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,7 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				F50EFCB2185C80FE00618DA1 /* Lights.app */,
-				F50EFCD6185C80FE00618DA1 /* LightsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,6 +107,9 @@
 				F50EFCB7185C80FE00618DA1 /* CoreGraphics.framework */,
 				F50EFCB9185C80FE00618DA1 /* UIKit.framework */,
 				F50EFCD7185C80FE00618DA1 /* XCTest.framework */,
+				28EA32395CE0492E99446012 /* libPods.a */,
+				F560AB7F185E858000683EB9 /* Cocoa.framework */,
+				F560AB81185E858000683EB9 /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -117,9 +120,12 @@
 				F50EFCC4185C80FE00618DA1 /* AppDelegate.h */,
 				F50EFCC5185C80FE00618DA1 /* AppDelegate.m */,
 				F50EFCC7185C80FE00618DA1 /* Main_iPhone.storyboard */,
-				F50EFCCA185C80FE00618DA1 /* Main_iPad.storyboard */,
 				F50EFCCD185C80FE00618DA1 /* ViewController.h */,
 				F50EFCCE185C80FE00618DA1 /* ViewController.m */,
+				F560AB74185DEE8B00683EB9 /* TableViewController.h */,
+				F560AB75185DEE8B00683EB9 /* TableViewController.m */,
+				F560AB77185DFF2A00683EB9 /* SwitchDetailViewController.h */,
+				F560AB78185DFF2A00683EB9 /* SwitchDetailViewController.m */,
 				F50EFCD0185C80FE00618DA1 /* Images.xcassets */,
 				F50EFCBC185C80FE00618DA1 /* Supporting Files */,
 			);
@@ -155,6 +161,58 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F560AB81185E858000683EB9 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F560AB82185E858000683EB9 /* AppKit.framework */,
+				F560AB83185E858000683EB9 /* CoreData.framework */,
+				F560AB84185E858000683EB9 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F560AB85185E858000683EB9 /* Lights-OSX */ = {
+			isa = PBXGroup;
+			children = (
+				F560AB91185E858000683EB9 /* AppDelegate.h */,
+				F560AB92185E858000683EB9 /* AppDelegate.m */,
+				F560AB94185E858000683EB9 /* MainMenu.xib */,
+				F560AB97185E858000683EB9 /* Images.xcassets */,
+				F560AB86185E858000683EB9 /* Supporting Files */,
+			);
+			path = "Lights-OSX";
+			sourceTree = "<group>";
+		};
+		F560AB86185E858000683EB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F560AB87185E858000683EB9 /* Lights-OSX-Info.plist */,
+				F560AB88185E858000683EB9 /* InfoPlist.strings */,
+				F560AB8B185E858000683EB9 /* main.m */,
+				F560AB8D185E858000683EB9 /* Lights-OSX-Prefix.pch */,
+				F560AB8E185E858000683EB9 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F560ABA2185E858000683EB9 /* Lights-OSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				F560ABA8185E858000683EB9 /* Lights_OSXTests.m */,
+				F560ABA3185E858000683EB9 /* Supporting Files */,
+			);
+			path = "Lights-OSXTests";
+			sourceTree = "<group>";
+		};
+		F560ABA3185E858000683EB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F560ABA4185E858000683EB9 /* Lights-OSXTests-Info.plist */,
+				F560ABA5185E858000683EB9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -162,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F50EFCE7185C80FE00618DA1 /* Build configuration list for PBXNativeTarget "Lights" */;
 			buildPhases = (
+				8860F5C8BEBE43459BE423DE /* Check Pods Manifest.lock */,
 				F50EFCAE185C80FE00618DA1 /* Sources */,
 				F50EFCAF185C80FE00618DA1 /* Frameworks */,
 				F50EFCB0185C80FE00618DA1 /* Resources */,
+				E8F65CE1882C481BB9C65C0D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -175,24 +235,6 @@
 			productReference = F50EFCB2185C80FE00618DA1 /* Lights.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F50EFCD5185C80FE00618DA1 /* LightsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F50EFCEA185C80FE00618DA1 /* Build configuration list for PBXNativeTarget "LightsTests" */;
-			buildPhases = (
-				F50EFCD2185C80FE00618DA1 /* Sources */,
-				F50EFCD3185C80FE00618DA1 /* Frameworks */,
-				F50EFCD4185C80FE00618DA1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F50EFCDC185C80FE00618DA1 /* PBXTargetDependency */,
-			);
-			name = LightsTests;
-			productName = LightsTests;
-			productReference = F50EFCD6185C80FE00618DA1 /* LightsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -201,11 +243,6 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Pieter Janssens";
-				TargetAttributes = {
-					F50EFCD5185C80FE00618DA1 = {
-						TestTargetID = F50EFCB1185C80FE00618DA1;
-					};
-				};
 			};
 			buildConfigurationList = F50EFCAD185C80FE00618DA1 /* Build configuration list for PBXProject "Lights" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -221,7 +258,6 @@
 			projectRoot = "";
 			targets = (
 				F50EFCB1185C80FE00618DA1 /* Lights */,
-				F50EFCD5185C80FE00618DA1 /* LightsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,22 +267,46 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F50EFCCC185C80FE00618DA1 /* Main_iPad.storyboard in Resources */,
 				F50EFCD1185C80FE00618DA1 /* Images.xcassets in Resources */,
 				F50EFCC9185C80FE00618DA1 /* Main_iPhone.storyboard in Resources */,
 				F50EFCC0185C80FE00618DA1 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F50EFCD4185C80FE00618DA1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8860F5C8BEBE43459BE423DE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F50EFCE2185C80FE00618DA1 /* InfoPlist.strings in Resources */,
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		E8F65CE1882C481BB9C65C0D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F50EFCAE185C80FE00618DA1 /* Sources */ = {
@@ -255,27 +315,13 @@
 			files = (
 				F50EFCCF185C80FE00618DA1 /* ViewController.m in Sources */,
 				F50EFCC6185C80FE00618DA1 /* AppDelegate.m in Sources */,
+				F560AB79185DFF2A00683EB9 /* SwitchDetailViewController.m in Sources */,
 				F50EFCC2185C80FE00618DA1 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F50EFCD2185C80FE00618DA1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F50EFCE4185C80FE00618DA1 /* LightsTests.m in Sources */,
+				F560AB76185DEE8B00683EB9 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F50EFCDC185C80FE00618DA1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F50EFCB1185C80FE00618DA1 /* Lights */;
-			targetProxy = F50EFCDB185C80FE00618DA1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F50EFCBE185C80FE00618DA1 /* InfoPlist.strings */ = {
@@ -294,18 +340,42 @@
 			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
-		F50EFCCA185C80FE00618DA1 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F50EFCCB185C80FE00618DA1 /* Base */,
-			);
-			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
 		F50EFCE0185C80FE00618DA1 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F50EFCE1185C80FE00618DA1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F560AB88185E858000683EB9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F560AB89185E858000683EB9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F560AB8E185E858000683EB9 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F560AB8F185E858000683EB9 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F560AB94185E858000683EB9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F560AB95185E858000683EB9 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		F560ABA5185E858000683EB9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F560ABA6185E858000683EB9 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -389,6 +459,7 @@
 		};
 		F50EFCE8185C80FE00618DA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3A0F209389E4850A1FF101D /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -402,6 +473,7 @@
 		};
 		F50EFCE9185C80FE00618DA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3A0F209389E4850A1FF101D /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -410,48 +482,6 @@
 				INFOPLIST_FILE = "Lights/Lights-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		F50EFCEB185C80FE00618DA1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lights.app/Lights";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Lights/Lights-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "LightsTests/LightsTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		F50EFCEC185C80FE00618DA1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lights.app/Lights";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Lights/Lights-Prefix.pch";
-				INFOPLIST_FILE = "LightsTests/LightsTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -474,14 +504,7 @@
 				F50EFCE9185C80FE00618DA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		F50EFCEA185C80FE00618DA1 /* Build configuration list for PBXNativeTarget "LightsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F50EFCEB185C80FE00618DA1 /* Debug */,
-				F50EFCEC185C80FE00618DA1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
